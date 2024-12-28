@@ -1,0 +1,25 @@
+.sectionTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.toggleText {
+  color: var(--color-primary);
+  cursor: pointer;
+}
+.showallwrapper {
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sectioninnerwrapper {
+  margin-top: 18px;
+}
+.progressbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}

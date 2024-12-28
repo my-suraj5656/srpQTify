@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  flex-direction: row;
+}
+.search {
+  width: 502px;
+  height: 100%;
+  border: 1px solid var(--color-black);
+  border-radius: 8px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 14px 20px;
+}
+
+.searchbutton {
+  height: 100%;
+  border: 1px solid var(--color-black);
+  border-radius: 0px 8px 8px 0px;
+  border-left: none;
+  cursor: pointer;
+  padding: 14px 20px;
+}

@@ -1,0 +1,22 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+}
+
+.herotitle {
+  display: flex;
+  flex-direction: column;
+  line-height: 48px;
+  font-weight: 600;
+  margin: 20px;
+}
+.heroimg {
+  height: 212px;
+  width: 212px;
+}
+.herotitle h1 {
+  height: 48px;
+  font-size: 32px;
+}
